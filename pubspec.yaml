@@ -1,0 +1,28 @@
+name: artha_tracker
+description: "A new Flutter project for Artha Tracker."
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Tambahan package untuk menggunakan font Playfair Display secara otomatis
+  google_fonts: ^6.2.0
+  cupertino_icons: ^1.0.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+
+  # Pendaftaran folder dan aset gambar LogoKoinArtha asli kamu
+  assets:
+    - assets/LogoKoinArtha.png
